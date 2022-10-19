@@ -49,7 +49,7 @@
 
      <div class="outputs">
         <div class="searchbox">
-            <input type="text" id="search" placeholder="search">
+            <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="search">
             <div class="btnSearch">
                 <button onclick="getSearchMood(this.id)" id="searchTitle">Search By TiTle</button>
                 <button onclick="getSearchMood(this.id)" id="searchTCategory">Search By Category</button>
