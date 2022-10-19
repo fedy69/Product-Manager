@@ -169,11 +169,22 @@ function updateData(i){
 }
 
 
-
-
-
-
-
-
 //search
+let serchMood = 'title'
+
+function getSearchMood(id)
+{
+  let search = document.getElementById('search')
+  if(id == 'searchTitle'){
+    serchMood = 'title'
+  }else{
+    serchMood = 'category'
+  }
+  search.focus()
+}
+
+
+
+
+
 //clean data
